@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## you can start front end with "npm start" command and ensure start backend first to signup and signin use "nodemon" command to start backend
+
+## Screenshot
+![Screenshot 2023-07-28 135044](https://github.com/saketh-j/codecamp-frontend/assets/109161554/be20290b-e6e5-44fc-8b55-bab845860be1)
+
+## dependencies used 
+    "axios": "^1.4.0",
+    "jsonwebtoken": "^9.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.14.2",
+
 ## Available Scripts
 
 In the project directory, you can run:
