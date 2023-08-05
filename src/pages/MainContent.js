@@ -21,7 +21,7 @@ const MainContent = () => {
   const handleRegistration = async (certificationTitle) => {
    try {
      await axios.post(`http://localhost:8000/api/register`, { title: certificationTitle });
-     alert('Registered successfully');
+     alert('Thankyou Registered successfullly');
    } catch (error) {
      alert('Registration failed');
    }
