@@ -20,7 +20,7 @@ const MainContent = () => {
 
   const handleRegistration = async (certificationTitle) => {
    try {
-     await axios.post(`http://localhost:8000/api/register`, { title: certificationTitle });
+     await axios.post(`https://code-camp-project-mern-sqjv.onrender.com/api/register`, { title: certificationTitle });
      alert('Thankyou Registered successfullly');
    } catch (error) {
      alert('Registration failed');

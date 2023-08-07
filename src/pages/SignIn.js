@@ -6,7 +6,7 @@ const SignIn = ({ setIsAuthenticated }) => {
 
   async function signin(event) {
     event.preventDefault();
-    const response = await fetch('http://localhost:8000/api/signin', {
+    const response = await fetch('https://code-camp-project-mern-sqjv.onrender.com/api/signin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -22,7 +22,6 @@ const SignIn = ({ setIsAuthenticated }) => {
     if (data.user) {
       localStorage.setItem('token', data.user);
       alert('Signin successful');
-    
       window.location.href = '/mainContent';
     } else {
       alert('Please check your username and password');
