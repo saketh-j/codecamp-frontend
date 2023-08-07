@@ -6,8 +6,6 @@ import Home from './pages/Home';
 import MainContent from './pages/MainContent';
 
 function App() {
- // const [isAuthenticated, setIsAuthenticated] = useState(false);
-
   return (
     <div className="App">
       <Router>
